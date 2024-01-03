@@ -277,6 +277,7 @@ cc_import(
                 Label("//toolchains:pkgconfig-makefile-vc.patch"),
             ],
             urls = [
+                "https://venti-third-party-code-mirror.s3.ap-southeast-1.amazonaws.com/pkg-config-0.29.2.tar.gz",
                 "https://pkgconfig.freedesktop.org/releases/pkg-config-0.29.2.tar.gz",
             ],
         )
